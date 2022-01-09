@@ -1,0 +1,24 @@
+footer{
+	background-color: var(--main-color);
+	padding: var(--space-from-edge);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer__logo-img{
+	max-width: 5rem;
+}
+
+footer p{
+   color: var(--additional-color2);
+}
+
+.links{
+   display: flex;
+}
+
+.links__link{
+   list-style: none;
+   margin: 0.5rem;
+}

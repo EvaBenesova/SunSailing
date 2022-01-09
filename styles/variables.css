@@ -1,0 +1,8 @@
+:root{
+   --maximum-width: 50rem;
+   --space-from-edge: 1rem;
+   --font: 'Roboto', sans-serif;
+   --main-color: #141A3A;
+   --additional-color1: #07A3BA;
+   --additional-color2: #F7A600;
+}
