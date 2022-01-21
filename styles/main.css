@@ -81,3 +81,7 @@ section{
 	background-color:(--main-color);
 }
 
+.main__paragraph{
+	text-align: center;
+	font-size: 1.5rem;
+}
