@@ -1,85 +1,150 @@
 <!DOCTYPE html>
 <html lang="cs">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="styles/courses.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-      <link rel="shortcut icon" href="/pics/logo.svg"/>
-		<title>SunSailing - Dovolená na lodi</title>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet">
+      <link rel="shortcut icon" href="/pics/logo.svg" />
+      <title>SunSailing - Dovolená na lodi</title>
 
-	</head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-000000000-0"></script>
+      <script>
+            window.dataLayer = window.dataLayer || []
+            function gtag() {
+                  dataLayer.push(arguments)
+            }
+            gtag('js', new Date())
+
+            gtag('config', 'UA-000000000-0')
+      </script>
+
+</head>
 
 
-   <header class="header">
+<header class="header">
       <nav class="navbar">
-         <a href="index.html" class="navbar__logo">
-            <img src="pics/logo.svg" class="navbar__logo-img" alt="logo">
-         </a>
-         
-         <ul class="navbar__menu">
-            <li class="navbar__menu-item"> <a href="courses.html" class="navbar__link">Kapitánské kurzy</a></li>
-            <li class="navbar__menu-item"> <a href="holidays.html" class="navbar__link">Dovolená na lodi</a></li>
-            <li class="navbar__menu-item"> <a href="all-inclusive.html" class="navbar__link">All Inclusive</a></li>
-            <li class="navbar__menu-item"> <a href="profile.html" class="navbar__link">O nás</a></li>
-            <li class="navbar__menu-item">
-               <a href="https://www.facebook.com/Sun-Sailing-108456818207782"><img src="pics/FB icon.svg" class="FBlogo" width="32" height="32" alt="FB logo"></a>
-            </li>
-         </ul>
-   
-         <div class="hamburger">
-           <span class="bar"></span>
-           <span class="bar"></span>
-           <span class="bar"></span>
-         </div>
-   
-   
+            <a href="index.html" class="navbar__logo">
+                  <img src="pics/logo.svg" class="navbar__logo-img" alt="logo">
+            </a>
+
+            <ul class="navbar__menu">
+                  <li class="navbar__menu-item"> <a href="courses.html" class="navbar__link">Kapitánské kurzy</a></li>
+                  <li class="navbar__menu-item"> <a href="holidays.html" class="navbar__link">Dovolená na lodi</a></li>
+                  <li class="navbar__menu-item"> <a href="all-inclusive.html" class="navbar__link">All Inclusive</a></li>
+                  <li class="navbar__menu-item"> <a href="teambuilding.html" class="navbar__link">Team building</a></li>
+                  <li class="navbar__menu-item"> <a href="profile.html" class="navbar__link">O nás</a></li>
+                  <li class="navbar__menu-item">
+                        <a href="https://www.facebook.com/Sun-Sailing-108456818207782"><img src="pics/FB icon.svg"
+                                    class="FBlogo" width="32" height="32" alt="FB logo"></a>
+                  </li>
+                  <li class="links__link"><a href="https://www.instagram.com/sunsailing_/"><img src="pics/IG icon.svg"
+                                    class="IGlogo" width="32" height="32" alt="IG logo"></a></li>
+                  <li class="links__link"><a href="https://www.youtube.com/channel/UCIZ_Jl14TnXYhp7B9WQJD0A/videos"><img
+                                    src="pics/YTlogo.svg" class="YTlogo" width="32" height="32" alt="YT logo"></a></li>
+            </ul>
+
+            <div class="hamburger">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+            </div>
+
+
       </nav>
-   </header>
+</header>
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593</button>
 
 <section class="content">
-   <h2>Dovolená na moři</h2>
-   <p>Chtěli byste o dovolené zažít dobrodružství, adrenalin, každý den být v jiném městě nebo si užívat klid a pohodu na zakotvené pohupující se lodi v opuštěné zátoce ke které se jinak než lodí nedostanete?</p>
-   <p>Rádi vám ukážeme ty nejlepší konoby a nejodlehlejší zátoky.</p>
+      <h2>Dovolená na moři</h2>
+      <p>Chtěli byste o dovolené zažít dobrodružství, adrenalin, každý den být v jiném městě nebo si užívat klid a
+            pohodu
+            na zakotvené pohupující se lodi v opuštěné zátoce ke které se jinak než lodí nedostanete?</p>
+      <p>Rádi vám ukážeme ty nejlepší konoby a nejodlehlejší zátoky.</p>
 
-   <h2>Rodinné plavby</h2>
-   <p>Máte malé děti a máte obavy, jestli je bude plavba na lodi bavit?</p>
-   <p>Tak o to už se postará kapitán lodi. Plavbu přizpůsobíme tak, aby děti měly dostatek zmrzliny, čas na pozorování rybek pod lodí, brouzdání na břehu zátoky nebo hledání pokladu na opuštěném ostrově. Ty větší naučíme lodní uzle, plavební nauku a třeba i tahání na laně za lodí.</p>
+      <section class="gallery">
+            <a data-fslightbox="gallery" href="pics/holidays-01.jpg"><img src="/pics/holidays-01.jpg" class="photo"
+                        alt="holidays"></a>
+            <a data-fslightbox="gallery" href="pics/holidays-02.jpg"><img src="/pics/holidays-02.jpg" class="photo"
+                        alt="holidays"></a>
+            <a data-fslightbox="gallery" href="pics/holidays-03.jpg"><img src="/pics/holidays-03.jpg" class="photo"
+                        alt="holidays"></a>
+            <a data-fslightbox="gallery" href="pics/holidays-04.jpg"><img src="/pics/holidays-04.jpg" class="photo"
+                        alt="holidays"></a>
+            <a data-fslightbox="gallery" href="pics/holidays-05.jpg"><img src="/pics/holidays-05.jpg" class="photo"
+                        alt="holidays"></a>
+            <a data-fslightbox="gallery" href="pics/holidays-06.jpg"><img src="/pics/holidays-06.jpg" class="photo"
+                        alt="holidays"></a>
+            <a data-fslightbox="gallery" href="pics/holidays-07.jpg"><img src="/pics/holidays-07.jpg" class="photo"
+                        alt="holidays"></a>
+            <a data-fslightbox="gallery" href="pics/holidays-08.jpg"><img src="/pics/holidays-08.jpg" class="photo"
+                        alt="holidays"></a>
+
+      </section>
+
+      <h2>Rodinné plavby</h2>
+      <p>Máte malé děti a máte obavy, jestli je bude plavba na lodi bavit?</p>
+      <p>Tak o to už se postará kapitán lodi. Plavbu přizpůsobíme tak, aby děti měly dostatek zmrzliny, čas na
+            pozorování
+            rybek pod lodí, brouzdání na břehu zátoky nebo hledání pokladu na opuštěném ostrově. Ty větší naučíme lodní
+            uzle,
+            plavební nauku a třeba i tahání na laně za lodí.</p>
 
 
-   <section class="gallery">
-         <a data-fslightbox="gallery" href="pics/holidays-01.jpg"><img src="/pics/holidays-01.jpg" class="photo" alt="holidays"></a>
-         <a data-fslightbox="gallery" href="pics/holidays-02.jpg"><img src="/pics/holidays-02.jpg" class="photo" alt="holidays"></a>
-         <a data-fslightbox="gallery" href="pics/holidays-03.jpg"><img src="/pics/holidays-03.jpg" class="photo" alt="holidays"></a>
-         <a data-fslightbox="gallery" href="pics/holidays-04.jpg"><img src="/pics/holidays-04.jpg" class="photo" alt="holidays"></a>
-         <a data-fslightbox="gallery" href="pics/holidays-05.jpg"><img src="/pics/holidays-05.jpg" class="photo" alt="holidays"></a>
-         <a data-fslightbox="gallery" href="pics/holidays-06.jpg"><img src="/pics/holidays-06.jpg" class="photo" alt="holidays"></a>
-         <a data-fslightbox="gallery" href="pics/holidays-07.jpg"><img src="/pics/holidays-07.jpg" class="photo" alt="holidays"></a>
-         <a data-fslightbox="gallery" href="pics/holidays-08.jpg"><img src="/pics/holidays-08.jpg" class="photo" alt="holidays"></a>
+      <section class="gallery">
+            <a data-fslightbox="gallery" href="pics/family-01.jpg"><img src="/pics/family-01.jpg" class="photo"
+                        alt="family"></a>
+            <a data-fslightbox="gallery" href="pics/family-02.jpg"><img src="/pics/family-02.jpg" class="photo"
+                        alt="family"></a>
+            <a data-fslightbox="gallery" href="pics/family-03.jpg"><img src="/pics/family-03.jpg" class="photo"
+                        alt="family"></a>
+            <a data-fslightbox="gallery" href="pics/family-04.jpg"><img src="/pics/family-04.jpg" class="photo"
+                        alt="family"></a>
+            <a data-fslightbox="gallery" href="pics/family-05.jpg"><img src="/pics/family-05.jpg" class="photo"
+                        alt="family"></a>
+            <a data-fslightbox="gallery" href="pics/family-06.jpg"><img src="/pics/family-06.jpg" class="photo"
+                        alt="family"></a>
+            <a data-fslightbox="gallery" href="pics/family-07.jpg"><img src="/pics/family-07.jpg" class="photo"
+                        alt="family"></a>
+            <a data-fslightbox="gallery" href="pics/family-08.jpg"><img src="/pics/family-08.jpg" class="photo"
+                        alt="family"></a>
+            <a data-fslightbox="gallery" href="pics/family-09.jpg"><img src="/pics/family-09.jpg" class="photo"
+                        alt="family"></a>
+            <a data-fslightbox="gallery" href="pics/family-10.jpg"><img src="/pics/family-10.jpg" class="photo"
+                        alt="family"></a>
+            <a data-fslightbox="gallery" href="pics/family-11.jpg"><img src="/pics/family-11.jpg" class="photo"
+                        alt="family"></a>
+            <a data-fslightbox="gallery" href="pics/family-12.jpg"><img src="/pics/family-12.jpg" class="photo"
+                        alt="family"></a>
+            <a data-fslightbox="gallery" href="pics/family-13.jpg"><img src="/pics/family-13.jpg" class="photo"
+                        </section>
 
-   </section>
+      </section>
 
-</section>
+      <footer>
+            <a href="index.html" class="footer__logo">
+                  <img src="pics/logo.svg" class="footer__logo-img" alt="logo">
+            </a>
 
-<footer>
-<a href="index.html" class="footer__logo">
-   <img src="pics/logo.svg" class="footer__logo-img" alt="logo">
-</a>
+            <ul class="links">
+                  <li class="links__link"><a href="https://www.facebook.com/Sun-Sailing-108456818207782"><img
+                                    src="pics/FB icon.svg" class="FBlogo" width="32" height="32" alt="FB logo"></a></li>
+                  <li class="links__link"><a href="https://www.instagram.com/sunsailing_/"><img src="pics/IG icon.svg"
+                                    class="IGlogo" width="32" height="32" alt="IG logo"></a></li>
+                  <li class="links__link"><a href="https://www.youtube.com/channel/UCIZ_Jl14TnXYhp7B9WQJD0A/videos"><img
+                                    src="pics/YTlogo.svg" class="YTlogo" width="32" height="32" alt="YT logo"></a></li>
+            </ul>
 
-<ul class="links">
-   <li class="links__link"><a href="https://www.facebook.com/Sun-Sailing-108456818207782"><img src="pics/FB icon.svg" class="FBlogo" width="32" height="32" alt="FB logo"></a></li>
-   <li class="links__link"><a href="https://www.instagram.com/sunsailing_/"><img src="pics/IG icon.svg" class="IGlogo" width="32" height="32" alt="IG logo"></a></li>
-   <li class="links__link"><a href="https://www.youtube.com/channel/UCIZ_Jl14TnXYhp7B9WQJD0A/videos"><img src="pics/YTlogo.svg" class="YTlogo" width="32" height="32" alt="YT logo"></a></li>
-</ul>
-
-<p>Eva Benešová 2022</p>
-</footer>
-<script src="/scripts/fslightbox.js"></script>
-<script src="/scripts/hamburger.js"></script>
-<script src="/scripts/button.js"></script>
+            <p>Eva Benešová 2022</p>
+      </footer>
+      <script src="/scripts/fslightbox.js"></script>
+      <script src="/scripts/hamburger.js"></script>
+      <script src="/scripts/button.js"></script>
 
 </html>

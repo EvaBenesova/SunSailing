@@ -30,6 +30,15 @@ h2{
    display: grid;
 }
 
+.container__contact{
+   list-style: none;
+   text-align: center;
+}
+
+.container__contact li {
+   padding-top: 1rem;
+}
+
 .container__links{
    list-style: none;
    display: flex;
@@ -73,5 +82,7 @@ img{
    }
 }
 
-
+h2{
+	padding-top:7rem;
+}
 

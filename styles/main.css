@@ -26,9 +26,10 @@ img{
 
 section{
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 20px auto;
 	padding: 1rem;
 	min-height: 80vh;
+	
 }
 
 .slideshow{
@@ -84,4 +85,9 @@ section{
 .main__paragraph{
 	text-align: center;
 	font-size: 1.5rem;
+	;
+}
+
+.main-move{
+	margin-top:750px;
 }

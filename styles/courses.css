@@ -51,8 +51,12 @@ section{
    .gallery{
       grid-template-columns: repeat(4, 1fr);
    }
+   .content{
+      min-height: 85vh;
+   }
 }
 
-
-
+.content{
+	padding-top:7rem;
+}
 

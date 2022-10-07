@@ -12,6 +12,18 @@
    <link rel="shortcut icon" href="/pics/logo.svg" />
    <title>SunSailing-O nás</title>
 
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-000000000-0"></script>
+   <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+         dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-000000000-0')
+   </script>
+
 </head>
 
 
@@ -25,11 +37,17 @@
          <li class="navbar__menu-item"> <a href="courses.html" class="navbar__link">Kapitánské kurzy</a></li>
          <li class="navbar__menu-item"> <a href="holidays.html" class="navbar__link">Dovolená na lodi</a></li>
          <li class="navbar__menu-item"> <a href="all-inclusive.html" class="navbar__link">All Inclusive</a></li>
+         <li class="navbar__menu-item"> <a href="teambuilding.html" class="navbar__link">Team building</a></li>
          <li class="navbar__menu-item"> <a href="profile.html" class="navbar__link">O nás</a></li>
          <li class="navbar__menu-item">
             <a href="https://www.facebook.com/Sun-Sailing-108456818207782"><img src="pics/FB icon.svg" class="FBlogo"
                   width="32" height="32" alt="FB logo"></a>
          </li>
+         <li class="links__link"><a href="https://www.instagram.com/sunsailing_/"><img src="pics/IG icon.svg"
+                  class="IGlogo" width="32" height="32" alt="IG logo"></a></li>
+         <li class="links__link"><a href="https://www.youtube.com/channel/UCIZ_Jl14TnXYhp7B9WQJD0A/videos"><img
+                  src="pics/YTlogo.svg" class="YTlogo" width="32" height="32" alt="YT logo"></a></li>
+
       </ul>
 
       <div class="hamburger">
@@ -44,12 +62,13 @@
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593</button>
 
+
 <h2>O NÁS</h2>
 <h3>Jakub Kostohryz – vedoucí projektu</h3>
 <section class="content">
-   
+
    <div class="content__container profileImg">
-      
+
       <img src="/pics/profilePhoto.jpg" class="profilePhoto" alt="profilePhoto">
    </div>
    <div class="content__container">
@@ -84,6 +103,11 @@
 
 
    <div class="content__container">
+      <h3>Kontaktujte nás na:</h3>
+      <ul class="container__contact">
+         <li>email: <a href="info@sunsailing.cz"> info@sunsailing.cz </a> </li>
+         <li>telefon: <a href="+420723522507"> +420 723 522 507</a> </li>
+      </ul>
       <h3>Najdete nás na:</h3>
       <ul class="container__links">
          <li><a href="https://www.facebook.com/Sun-Sailing-108456818207782"><img src="pics/FB icon.svg" class="FB logo"
@@ -94,7 +118,6 @@
                   class="YT logo" width="32" height="32" alt="YT logo"></a></li>
       </ul>
    </div>
-
 </section>
 
 <footer>

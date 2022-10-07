@@ -22,3 +22,15 @@ footer p{
    list-style: none;
    margin: 0.5rem;
 }
+
+@media(max-width:768px){
+   footer p{
+      font-size: 12px;
+   }
+}
+
+@media(max-width:480px){
+   footer p{
+      font-size: 10px;
+   }
+}
